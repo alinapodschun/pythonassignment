@@ -13,6 +13,14 @@ If you want to make sure every word is in fact different from the input word, yo
 
 Right now, all functions allow integer input. *scramble_without_firstlast* and *scramble_all* also allow integer input, since it might be fun to scramble long numbers too. *scramble_shortwords* doesn't, because integers normally can't be split into units by white spaces. *random_uppercase* doesn't, because integers can't be capitalized. The functions return error messages for all other input types, but this of course, can be changed.
 
+### Testing
+
+Each function is tested in its own file, for clarity's sake. 
+
+When testing the random behaviour of the functions, I included a clause telling python to scramble again if the result randomly is the same as the input string.
+
+Of course, python might *randomly* return a string identical to the input *a second time*. In this case our test would fail, even though our function might still be working perfectly. I have thought about solving this with a loop command, but decided against it: In case there really is a mistake in our function, the test would of course keep failing and be stuck in an endless loop of re-trying to scramble the words.
+
 ## Possible changes
 
 ### Capitalized Words
