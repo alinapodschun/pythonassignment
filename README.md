@@ -34,4 +34,8 @@ I have used the *coverage* package and included a file *coverage_scrambled_py.ht
 ## Sources and further development
 
 The sources I used for my code(s) are included in the *sources.txt* file in this repository.
-There is also a file *additional_info.txt* explaining the reasoning behind my program, as well as giving suggestions for additional improvements or changes.
+There is also a file *additional_info.md* explaining the reasoning behind my program, as well as giving suggestions for additional improvements or changes.
+
+## License
+
+Click here for the license file.
