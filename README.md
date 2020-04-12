@@ -20,7 +20,7 @@ Alternatively, if you want to test the functions on your own text, you can addit
 
 ## Testing the functions
 
-In this repository, there are files testing each function more thoroughly, all located in the test subfile:
+In this repository, there are files testing each function more thoroughly, all located in the [tests](tests) subfile:
 * *test_scramble_all.py*
 * *test_scramble_without_firstlast.py*
 * *test_scramble_shortwords.py*
