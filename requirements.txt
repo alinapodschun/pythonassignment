@@ -1,0 +1,6 @@
+PACKAGES USED:
+
+random
+string
+pytest
+coverage
