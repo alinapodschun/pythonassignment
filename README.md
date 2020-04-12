@@ -38,4 +38,4 @@ There is also a file *additional_info.md* explaining the reasoning behind my pro
 
 ## License
 
-Click here for the license file.
+Click [here](LICENSE) for the license file.
